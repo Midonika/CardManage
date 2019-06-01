@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/transaction_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/transaction_title_text"/>
+
+    <EditText
+        android:id="@+id/transaction_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/transaction_amount_text"/>
+
+    <EditText
+        android:id="@+id/transaction_to_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/transaction_to_account_text"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/transaction_cancel_btn"
+            android:layout_height="50dip"
+            android:layout_width="50dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/ic_cancel_black" />
+
+        <ImageButton
+            android:id="@+id/transaction_submit_btn"
+            android:layout_height="50dip"
+            android:layout_width="50dip"
+            android:layout_toLeftOf="@id/card_cancel_btn"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_submit_black" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

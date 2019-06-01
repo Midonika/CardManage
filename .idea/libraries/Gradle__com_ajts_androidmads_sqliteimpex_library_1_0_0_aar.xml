@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ajts.androidmads.sqliteimpex:library:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1dea30fd4701352ed1ac63698714edc7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1dea30fd4701352ed1ac63698714edc7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ajts.androidmads.sqliteimpex/library/1.0.0/437be591042c56e003775e0705aa0b688364b641/library-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

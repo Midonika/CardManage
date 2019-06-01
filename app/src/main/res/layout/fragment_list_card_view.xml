@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow android:stretchColumns="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add_card"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/add_card" />
+
+        <Button
+            android:id="@+id/export_database"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:text="@string/export_database" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/list_view_cards"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

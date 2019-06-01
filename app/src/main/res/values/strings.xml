@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidCards</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_fragment_main">Hello fragment Main</string>
+    <string name="hello_fragment_one">Hello fragment One</string>
+    <string name="hello_fragment_two">Hello fragment Two</string>
+    <string name="hello_fragment_three">Hello fragment Three</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fragment_one">Frag. One</string>
+    <string name="fragment_two">Frag. Two</string>
+    <string name="fragment_three">Frag. Three</string>
+
+    <string name="card_name_text">Nazwa karty</string>
+    <string name="card_number_text">Numer karty bankowej</string>
+
+    <string name="billing_period_text">Okres rozliczeniowy</string>
+    <string name="billing_period_week_text">Tydzień</string>
+    <string name="billing_period_month_text">Miesiąc</string>
+
+    <string name="transaction_limit_total_text">Limit wydatów</string>
+    <string name="transaction_limit_count_text">Limit liczby transakcji</string>
+
+    <string name="free_above_100_text">Zwolnienie z opłat gdy więcej niż 100zł wydatków</string>
+
+    <string name="name_is_required_error">Musisz podać nazwę karty</string>
+    <string name="number_is_required_error">Musisz podać 16-cyfrowy numer karty</string>
+    <string name="period_is_required_error">Musisz wybrać okres rozliczeniowy</string>
+    <string name="must_be_number_or_skipped_error">Pole musi być liczbą dodatnią albo być pominięte</string>
+    <string name="must_be_number_error">Pole musi być liczbą</string>
+
+    <string name="transaction_title_text">Tytuł transakcji</string>
+    <string name="transaction_amount_text">Kwota transakcji</string>
+    <string name="transaction_from_account_text">Nr karty nadawcy</string>
+    <string name="transaction_to_account_text">Nr karty odbiorcy</string>
+
+    <string name="add_card">Dodaj kartę</string>
+    <string name="list_cards">Lista kart</string>
+
+    <string name="export_database">Eksport danych</string>
+
+    <string name="to_much_amount_or_count">W aktualnym okresie rozliczeniowym wykonane transakcje przekroczyły limit ilości lub kwoty</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimilkowska.android_cards.FragmentMainTop">
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:text="@string/fragment_one" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_three"
+        android:id="@+id/button_three"
+        android:layout_gravity="end|center_vertical" />
+
+
+
+
+</FrameLayout>
